@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
 	name = 'passgen-py',
 	packages = find_packages(where='src'), 
-	version = '0.0.1',
+	version = '0.1.0',
 	description = 'Generate Passwords Deterministically based on a Master Password.',
 	classifiers = [
 		'Development Status :: 3 - Alpha',

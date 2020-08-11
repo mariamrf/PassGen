@@ -16,5 +16,5 @@ setup(
             'passgen=src:cli',
         ],
     },
-    install_requires=['click', 'pyperlip'],
+    install_requires=['click', 'pyperclip'],
 )

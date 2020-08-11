@@ -2,8 +2,8 @@ from setuptools import setup, find_packages
 
 setup(
 	name = 'passgen-py',
-	packages = find_packages(where='src'), 
-	version = '0.1.0',
+	packages = find_packages(), 
+	version = '0.1.1',
 	description = 'Generate Passwords Deterministically based on a Master Password.',
 	classifiers = [
 		'Development Status :: 3 - Alpha',
